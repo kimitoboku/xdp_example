@@ -21,5 +21,5 @@ while 1:
     except KeyboardInterrupt:
         print("Removing filter from device")
         b.remove_xdp(device, flags)
-        break;
+        break
 
