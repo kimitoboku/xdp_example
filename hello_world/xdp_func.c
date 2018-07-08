@@ -8,6 +8,6 @@
 #include <linux/ipv6.h>
 
 int xdp_prog(struct xdp_md *ctx) {
-  bpf_trace_printk("Hello, World!\\n");
+  bpf_trace_printk("Hello, World!\n");
   return XDP_PASS;
 }
